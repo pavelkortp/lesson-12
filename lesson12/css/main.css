@@ -1,0 +1,80 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(220,220,220);
+    background-image:url('/img/redcircle.png'),
+    url('/img/triangle.png');
+    background-repeat: no-repeat;
+    background-size: 300px, 300px, 100%;
+    background-position: bottom -150px left -100px; 
+    
+}
+
+.main{
+    width: 90vm;
+    max-width: 900vm;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 2;
+    padding: 2rem 1rem;
+    flex-grow: 2;
+    height: 100px;
+}
+h2{
+    font-size: 1.9rem;
+    margin-bottom: 1rem;
+}
+.a{
+    text-decoration: none;
+    color: inherit;
+}
+.social-icon{
+    display: inline-block;
+    font-weight: 900;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    border: 1px solid currentColor;
+
+}
+.p{
+    margin: 1rem;
+    max-width: 300px;
+    width: 100%;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    font-weight: 300;
+    text-align: center;
+}
+.input{
+    margin: 0.5rem 0;
+    width: 300px;
+    padding: 1rem 0.75rem;
+    background: green;
+    border: none;
+    color: inherit;
+    font-family: inherit;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.help{
+    border-bottom: 1px dashed #697a79;
+}
